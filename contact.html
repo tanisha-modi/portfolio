@@ -13,21 +13,34 @@
         <div class = "sidebar">
             <nav>
                 <Ul>
-                    <li><a href="/portfolio/index.html">Home</a></li>
-                    <li><a href="/portfolio/About.html">About</a></li>
-                    <li><a href="/portfolio/projects.html">Projects</a></li>
-                    <li><a href="/portfolio/resume.html">Resume</a></li>
-                    <li><a href="/portfolio/contact.html">Contact</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </Ul>
             </nav>
         </div> 
         <div class = "main">
-            <div class="contactform"></div>     
+            <div class="contactform"></div>  
+             <h1>Contact me for work/General Enquiries</h1>   
               <form>
                 <div class="cf">
-                    <label for="Cemail" class="formlabel">Email ID</label>
+                    <label for="Cemail" class="form-label">Email ID</label>
                     <input type="email" class="form-control" id="Cemail" aria-describedby="emailHelp">
+                    <!-- The aria-describedby property may be used to attach descriptive information to 
+                        one or more elements through the use of an id reference list -->
+                    <div id="emailHelp" class="form-text">We will never share your email and phone number with anyone else.</div>
                 </div>
+                <div class="cf">
+                    <label for="Cphone" class="form-label">Phone No.</label>
+                    <input type="phone" class="form-control" id="Cphone">
+                </div>
+                <div class="cf form-check">
+                    <input type="checkbox" class="form-check-input" id="check1">
+                    <label class="form-check-label" for="check1" >I want you to work withme on a project</label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
               </form>
         </div>
         
