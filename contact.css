@@ -1,0 +1,43 @@
+
+*{
+    margin: 3px;
+    padding: 0;
+}
+
+
+.sidebar{
+    padding : 15px;
+    height: 100vh;
+    background-color: chocolate;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 53px;
+    text-align: left;
+}
+.sidebar nav{
+    padding: 20px;  
+    font-size: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 12px;
+}
+.sidebar nav li a{
+    text-decoration: None;
+    /* padding: 12px; */
+    color: black;
+}
+.main{
+    background-color: burlywood;
+    width: 80vw;
+}
+.container{
+    display :flex;
+}
+
+.contact-form{
+    font-family: 'Raleway', sans-serif;
+}
+.contact-form h1{
+    font-family: monospace;
+}
