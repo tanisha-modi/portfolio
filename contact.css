@@ -84,3 +84,7 @@
     font-family:'Roboto Condensed', sans-serif ;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: sienna;
+    color: lightpink;
+}
