@@ -10,13 +10,15 @@
 
 
 .sidebar{
+    /* position: absolute; */
     padding : 15px;
     height: 100vh;
     background-color: chocolate;
-    width: 200px;
+    /* width: 200px; */
     font-family: 'Raleway', sans-serif;
     font-size: 53px;
     text-align: left;
+    transition: transform 0.3s ease-in;
 }
 .sidebar nav{
     padding: 20px;  
@@ -34,6 +36,13 @@
 .main{
     background-color: burlywood;
     width: 80vw;
+    padding: 2px;
+    transition: transform 0.3s ease-in;
+
+}
+.mainChange{
+    width: 100vw;
+    height: 100vh;
 }
 .container{
     display :flex;
@@ -82,4 +91,62 @@
 .buttons button:hover{
     background-color: sienna;
     color: lightpink;
+}
+
+.About-page{
+    margin: 25px;
+    padding: 17px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.skills{
+    padding: 12px;
+    font-weight: 900px;
+}
+
+.resume-page{
+    text-align: center;
+}
+
+.sidebarGo{
+    transform: translate(-240px,0px);
+    position: absolute;
+}
+
+@media (max-width : 900px) {
+*{
+    /* background-color: #fff; */
+}
+.devPic{
+    display: none;
+}
+.sidebar{
+    position: absolute;
+}
+.main{
+    width: 100vw;
+    height: 100wh;
+}
+/* .sidebar{
+    transform: translate(-240px,0px);
+    position: absolute;
+} */
+}
+.chamber{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 195px;
+    border-width: 100px ;
+    border-color: yellow;
+    width: 30px;
+    height: 30px;
+}
+.ham{
+    width: 30px;
+    height: 30px;
 }
